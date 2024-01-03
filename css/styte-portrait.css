@@ -1,21 +1,23 @@
+@charset "UTF-8";
+
 /* Estilo retrado */
 @media screen and (orientation: portrait) {
     .main-container {
-        width:290px;
+        width: 290px;
         height: 600px;
         backdrop-filter: blur(20px);
-        box-shadow: 0 0 12px 17px #b2fffa; 
-        }
+        box-shadow: 0 0 12px 17px #b2fffa;
+    }
 
     .title {
         margin: 50px 10px;
         line-height: 2rem;
     }
-    
+
     .cadastro a {
         width: 240px;
     }
-    
+
     .main-container input {
         margin: 0 auto;
         padding: 5px;
@@ -25,30 +27,30 @@
         border-radius: 5px;
         margin-bottom: 15px;
         outline-color: #c1a104;
-        border: none;               
+        border: none;
     }
 
     ::placeholder {
         font-weight: 600;
     }
-    
+
     li .logar {
         margin-top: 20px;
         font-weight: 500;
-    } 
-    
+    }
+
     .login p {
         font-weight: 600;
-    }  
+    }
 
     .login a {
         font-weight: 600;
     }
-    
+
     li .logar {
         font-weight: 600;
     }
-    
+
     .cadastro {
         margin-top: 40px;
     }
@@ -61,5 +63,3 @@
         font-weight: 600;
     }
 }
-
-     

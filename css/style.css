@@ -55,7 +55,7 @@ body {
     margin: 0 auto;
     width: 270px;
     height: 30px;
-    
+
 }
 
 ::placeholder {
@@ -124,23 +124,3 @@ body {
     background-color: #10e210;
     color: #fff;
 }
-
-/* Estilo paisagem */
-
-/*@media (orientation: landscape) {
-    .main-container {
-        width: 320px;
-        height: 350px;
-        backdrop-filter: blur(20px);
-        box-shadow: 0 0 12px 17px #b2fffa;        
-    }
-
-    .title {
-        margin: 10px;
-    }
-
-    .cadastro {
-        margin-top: 10px;        
-    }    
-}
-
