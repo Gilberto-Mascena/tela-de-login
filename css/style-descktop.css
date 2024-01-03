@@ -1,32 +1,47 @@
 @charset "UTF-8";
 
-/* Estilo retrado */
-@media screen and (orientation: portrait) {
+/* Estilo descktop */
+@media screen and (min-width: 1200px) {
     .main-container {
-        width: 290px;
-        height: 600px;
+        width: 400px;
+        height: 700px;
         backdrop-filter: blur(20px);
         box-shadow: 0 0 12px 17px #b2fffa;
     }
 
     .title {
-        margin: 20px 10px;
+        margin: 50px 10px;
         line-height: 2rem;
+        font-size: 2rem;
     }
 
-    .container-list .fa-solid {
-        font-size: 20px;
+    .title br {
+        display: flex;
+    }
+
+    .login a {
+        transition: all ease 0.8s;
+    }
+
+    .login a:hover {
+        color: #10e210;
     }
 
     .cadastro a {
-        width: 240px;
+        width: 260px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    .main-container .fa-solid {
+        font-size: 20px;
     }
 
     .main-container input {
         margin: 0 auto;
         padding: 5px;
         font-size: 14px;
-        width: 240px;
+        width: 260px;
         height: 30px;
         border-radius: 5px;
         margin-bottom: 15px;
@@ -49,15 +64,11 @@
 
     .login a {
         font-weight: 600;
-        transition: all ease 0.8s;
-    }
-
-    .login a:hover {
-        color: #10e210;
     }
 
     li .logar {
         font-weight: 600;
+        cursor: pointer;
     }
 
     .cadastro {
@@ -75,13 +86,13 @@
     .container-footer {
         display: flex;
         justify-content: center;
-        margin-top: 60px;
+        margin-top: 80px;
         padding: 10px;
     }
 
     .container-footer i {
         padding: 0 10px 0 10px;
-        font-size: 20px;
+        font-size: 25px;
         color: #fff;
         transition: all ease 0.8s;
     }

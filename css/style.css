@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 /* Estilos gerais */
-
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@
     overflow: hidden;
 }
 
-html,
 body {
     background-image: url(../img/mar.jpg);
     background-repeat: no-repeat;
@@ -40,7 +38,7 @@ body {
 .container-list .fa-solid {
     text-align: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 3px;
 }
 
@@ -117,7 +115,7 @@ body {
     width: 270px;
     height: 30px;
     border-radius: 5px;
-    transition: all ease 0.5s;
+    transition: all ease 0.8s;
 }
 
 .cadastro a:hover {
