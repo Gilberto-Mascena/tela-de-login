@@ -23,7 +23,7 @@ body {
     transform: translate(-50%, -50%);
     width: 450px;
     height: 700px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(60px);
     box-shadow: 0 0 12px 17px #b2fffa;
     padding: 20px;
     border-radius: 5px;

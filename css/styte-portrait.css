@@ -4,8 +4,7 @@
 @media screen and (orientation: portrait) {
     .main-container {
         width: 290px;
-        height: 600px;
-        backdrop-filter: blur(20px);
+        height: 600px;        
         box-shadow: 0 0 12px 17px #b2fffa;
     }
 

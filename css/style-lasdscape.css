@@ -4,8 +4,7 @@
 @media screen and (orientation: landscape) {
     .main-container {
         width: 390px;
-        height: 300px;
-        backdrop-filter: blur(20px);
+        height: 300px;        
         box-shadow: 0 0 12px 17px #b2fffa;
     }
 

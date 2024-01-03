@@ -4,8 +4,7 @@
 @media screen and (min-width: 1200px) {
     .main-container {
         width: 400px;
-        height: 700px;
-        backdrop-filter: blur(20px);
+        height: 700px;        
         box-shadow: 0 0 12px 17px #b2fffa;
     }
 
