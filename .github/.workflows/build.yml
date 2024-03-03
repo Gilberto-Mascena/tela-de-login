@@ -1,9 +1,9 @@
+name: Create Release
+
 on:
   push:    
     tags:
       - 'v*' 
-
-name: Create Release
 
 jobs:
   build:
@@ -20,6 +20,19 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body: |            
-          draft: false
-          prerelease: false
+  build-project:
+    name: Build project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install NPM dependencies
+        run: npm install
+      - name: Build project assets
+        run: npm run build
+      - name: Upload efi content
+        uses: actions/upload-artifact@v2
+        with:
+         name: efi
+         path: .tela-de-login
+        
